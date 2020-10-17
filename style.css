@@ -1,0 +1,60 @@
+/* header */
+header {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(image/hero.jpg) no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* banner */
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 80%;
+}
+
+.banner-header {
+  animation-name: banner-header;
+  animation-duration: 2s;
+}
+.banner-para {
+  animation-name: banner-para;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+}
+@keyframes banner-header {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes banner-para {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media (min-width: 356px) {
+  .banner {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) {
+  .banner {
+    width: 90%;
+  }
+}

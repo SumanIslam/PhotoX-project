@@ -1,0 +1,24 @@
+{
+  "name": "PhotoX project",
+  "authors": [
+    "suman Islam <sumunahmed1416@gmail.com>"
+  ],
+  "description": "I am creating a website named PhotoX developed using bootstrap",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "font-awesome": "^5.15.1",
+    "popper.js": "^2.5.3"
+  }
+}

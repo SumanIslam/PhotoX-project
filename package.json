@@ -1,0 +1,14 @@
+{
+  "name": "photox-project",
+  "version": "1.0.0",
+  "description": "This is a PhotoX webiste developed  using bootstrap ",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suman Islam",
+  "license": "MIT",
+  "dependencies": {
+    "popper.js": "^1.16.1"
+  }
+}
