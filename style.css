@@ -1,7 +1,7 @@
 /* header */
 header {
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(image/hero.jpg) no-repeat center fixed;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(image/hero.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -57,4 +57,14 @@ header {
   .banner {
     width: 90%;
   }
+}
+
+/* mission */
+.mission {
+  background-color: #151f20;
+}
+.underline {
+  width: 150px;
+  border: 2px solid white;
+  margin: auto;
 }
