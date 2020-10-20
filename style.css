@@ -17,37 +17,6 @@ header {
   width: 80%;
 }
 
-.banner-header {
-  animation-name: banner-header;
-  animation-duration: 2s;
-}
-.banner-para {
-  animation-name: banner-para;
-  animation-delay: 1s;
-  animation-duration: 2s;
-  animation-fill-mode: backwards;
-}
-@keyframes banner-header {
-  0% {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes banner-para {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
 @media (min-width: 356px) {
   .banner {
     width: 100%;
@@ -67,22 +36,6 @@ header {
   width: 150px;
   border: 2px solid white;
   margin: auto;
-}
-.from-left {
-  animation-name: from-left;
-  animation-duration: 3s;
-  animation-fill-mode: backwards;
-}
-
-@keyframes from-left {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
 
 /* collection */

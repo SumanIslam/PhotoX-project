@@ -9,6 +9,7 @@
   "author": "Suman Islam",
   "license": "MIT",
   "dependencies": {
+    "animate.css": "^4.1.1",
     "popper.js": "^1.16.1"
   }
 }
