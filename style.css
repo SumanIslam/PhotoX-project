@@ -68,3 +68,39 @@ header {
   border: 2px solid white;
   margin: auto;
 }
+.from-left {
+  animation-name: from-left;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes from-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* collection */
+.card-shadow {
+  box-shadow: 5px 8px 20px #333;
+}
+.heading {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  font-size: 0.8rem;
+  letter-spacing: 1.5;
+  background: #222;
+  width: 60%;
+  opacity: 0.7;
+  transition: all 0.5s;
+  text-align: center;
+}
+.heading:hover {
+  opacity: 1;
+}
