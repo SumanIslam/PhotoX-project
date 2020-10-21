@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 /* header */
 header {
   height: 100vh;
@@ -29,9 +32,9 @@ header {
 }
 
 /* mission */
-.mission {
+/* .mission {
   background-color: #151f20;
-}
+} */
 .underline {
   width: 150px;
   border: 2px solid white;
@@ -56,4 +59,22 @@ header {
 }
 .heading:hover {
   opacity: 1;
+}
+
+/* Gallery */
+.underline-dark {
+  width: 150px;
+  border: 2px solid #6c757d;
+  margin: auto;
+}
+.active-item {
+  color: #179ae6;
+}
+.gallery ul li {
+  cursor: pointer;
+}
+
+/* customer */
+#customer {
+  background-color: #151f20;
 }
