@@ -78,3 +78,34 @@ header {
 #customer {
   background-color: #151f20;
 }
+
+/* pricing */
+.card-1,
+.card-2,
+.card-3 {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  url(image/pricing.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.card-list-item {
+  border-bottom: 1px groove #eee;
+  width: 50%;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.3rem 1.3rem;
+  background-color: #f5593d;
+  border-radius: 25px;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+.btn:hover {
+  background-color: #f9793d;
+  transform: translateY(-2px);
+}

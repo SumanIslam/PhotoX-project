@@ -28,3 +28,14 @@ $('.gallery-group-item').click(function() {
 $('.gallery-group-item').click(function() {
   $(this).addClass('active-item').siblings().removeClass('active-item')
 })
+
+// pricing
+$(window).scroll(function() {
+  let position = $(this).scrollTop();
+  // console.log(position);
+  if(position >= 250) {
+    $('.card-1').addClass('animate__animated animate__slideInLeft animate__slower');
+    $('.card-2').addClass('animate__animated animate__slideInUp animate__slower');
+    $('.card-3').addClass('animate__animated animate__slideInRight animate__slower');
+  }
+});
