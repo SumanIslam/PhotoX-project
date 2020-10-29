@@ -1,10 +1,11 @@
 html {
   scroll-behavior: smooth;
 }
+
 /* header */
 header {
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(image/hero.jpg) no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(image/hero.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -16,7 +17,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   width: 80%;
 }
 
@@ -25,6 +26,7 @@ header {
     width: 100%;
   }
 }
+
 @media (min-width: 576px) {
   .banner {
     width: 90%;
@@ -45,6 +47,7 @@ header {
 .card-shadow {
   box-shadow: 5px 8px 20px #333;
 }
+
 .heading {
   position: absolute;
   top: 70%;
@@ -57,6 +60,7 @@ header {
   transition: all 0.5s;
   text-align: center;
 }
+
 .heading:hover {
   opacity: 1;
 }
@@ -67,9 +71,11 @@ header {
   border: 2px solid #6c757d;
   margin: auto;
 }
+
 .active-item {
   color: #179ae6;
 }
+
 .gallery ul li {
   cursor: pointer;
 }
@@ -85,19 +91,20 @@ header {
 .card-3 {
   height: 100%;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-  url(image/pricing.jpg) no-repeat center;
+    url(image/pricing.jpg) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
+
 .card-list-item {
   border-bottom: 1px groove #eee;
   width: 50%;
   margin: auto;
 }
 
-.btn {
+.btn-circle {
   display: inline-block;
   padding: 0.3rem 1.3rem;
   background-color: #f5593d;
@@ -105,7 +112,68 @@ header {
   text-align: center;
   transition: all 0.3s ease-in;
 }
-.btn:hover {
+
+.btn-circle:hover {
   background-color: #f9793d;
   transform: translateY(-2px);
+}
+
+/* contact */
+#contact {
+  height: 100%;
+  background: linear-gradient(105deg, rgba(21, 31, 32, 1) 0%, rgba(21, 31, 32, 0.9)50%,
+      transparent 50%), url(image/contact.jpg) no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.btn-submit {
+  background-color: #f5593d;
+  color: white;
+}
+
+.btn-submit:hover {
+  background-color: #f9793d;
+  color: #fff;
+}
+.input {
+  background: transparent;
+  border: transparent;
+  border-bottom: 2px solid #ccc;
+  border-radius: 0;
+}
+.input:focus {
+  background: transparent;
+  border: transparent;
+  box-shadow: none;
+  color: #fff;
+  border-bottom: 2px solid #f5593d;
+}
+.lebel {
+  color: #777;
+  display: block;
+  margin-top: -60px;
+  margin-left: 4px;
+  font-size: 0.8rem;
+  transition: all 0.3s;
+}
+.input:placeholder-shown + .lebel {
+  transform: translate(20px, 20px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (max-width: 992px) {
+  #contact {
+    background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, 0.9));
+  }
+  #contact h1 {
+    text-align: center;
+  }
+  .contact-form {
+    width: 80%;
+    margin: auto;
+  }
 }
