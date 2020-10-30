@@ -30,10 +30,6 @@ header {
   }
 }
 
-/* mission */
-/* .mission {
-  background-color: #151f20;
-} */
 .underline {
   width: 150px;
   border: 2px solid white;
@@ -154,7 +150,7 @@ header {
   transition: all 0.3s;
 }
 
-.input:placeholder-shown+.lebel {
+.input:placeholder-shown + .lebel {
   transform: translate(20px, 20px);
   opacity: 0;
   visibility: hidden;
@@ -173,4 +169,37 @@ header {
     width: 80%;
     margin: auto;
   }
+}
+
+/* footer */
+.footer-link {
+  color: #eee;
+  font-size: 0.8rem;
+  transition: all 0.3s;
+}
+.footer-link:hover {
+  color: #70aed2;
+  text-decoration: none;
+}
+.facebook,
+.linkedin,
+.twitter,
+.github,
+.codepen {
+  transition: all 0.5s;
+}
+.facebook:hover {
+  color: #0084ff;
+}
+.linkedin:hover {
+  color: #0077B5;
+}
+.twitter:hover {
+  color: #55acee;
+}
+.github:hover {
+  color: #9CDAF1;
+}
+.codepen:hover {
+  color: #228B22;
 }
